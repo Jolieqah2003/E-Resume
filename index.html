@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY E-RESUME</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Internal CSS */
+        header {
+            background-color: #3d2b1f;
+            color: white;
+            text-align: left;
+            padding: 20px 0;
+            padding-left: 30px;
+        }
+
+            .align-right {
+                float: right;
+                margin-left: 10px;
+            }
+
+            .text-shadow-basic {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+    </style>
+</head>
+<body>
+    <div class="resume container">
+        <header>
+            <a href="student.html"  target="_blank">
+            <img src="logo.png" width="120px" style="text-align: right; padding-right: 30px;" class="align-right"></a>
+
+            <h1 style="padding-bottom: 20px;"> MY E-RESUME </h1>
+            <nav>
+                <a href="index.html"> Home</a>|
+                <a href="aboutme.html">About Me</a>|
+                <a href="education.html">Education</a>|
+                <a href="skill.html">Skills</a>|
+                <a href="experience.html">Experience</a>|
+                <a href="contact.html">Contact</a>
+            </nav>
+        </header>
+
+        <!-- New flex container for image and text -->
+        <div class="image-text-container">
+            <img src="me.png" alt="Image" width="410" height="410" style="padding-right: 150px; padding-left: 40px;">
+            <p style="text-align: right; font-size: 70px; text-align-last: center; padding-right: 50px;" class="text-shadow-basic">
+            WELCOME TO<br> 
+            SITI ZULAIQAH<br> 
+            E-RESUME</p>
+        </div>
+    </div>
+
+    <style>
+        /* Flexbox styling for image and paragraph container */
+        .image-text-container {
+            display: flex; /* Aligns items side by side */
+            align-items: center; /* Vertically aligns the items */
+            justify-content: center; /* Centers the items horizontally */
+            padding-left: 30;
+            padding-right: 30;
+        }
+
+        /* Optional: Space between the image and text */
+        .image-text-container img {
+            margin-right: 20px;
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: rgb(61, 43, 31);
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        /* Internal CSS for general body styles */
+        body {
+            background-color: #d2b48c;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</body>
+<footer>
+    <p>© 2024 Siti Zulaiqah Binti Tony | <a href="mailto:zulaiqahtony@gmail.com">Contact Me</a></p>
+</footer>
